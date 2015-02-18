@@ -13,7 +13,10 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\BeerItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\BeerUserData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Brewery.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\TodoItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\User.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.cs" />
   </ItemGroup>
   <ItemGroup>
