@@ -13,7 +13,10 @@ namespace beerquest
         public string Name { get; set; }
 
         [JsonProperty(PropertyName = "brew_countryid")]
-        public string Name { get; set; }
+        public string CountryId { get; set; }
+
+        [JsonProperty(PropertyName = "brew_website")]
+        public string Website { get; set; }
 
 
     }

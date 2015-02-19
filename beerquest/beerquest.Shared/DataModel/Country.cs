@@ -5,11 +5,14 @@ using System.Text;
 
 namespace beerquest
 {
-    public class User
+    public class Country
     {
         public string Id { get; set; }
 
-        [JsonProperty(PropertyName = "user_name")]
+        [JsonProperty(PropertyName = "country_name")]
         public string Name { get; set; }
+
+        [JsonProperty(PropertyName = "country_flag")]
+        public string FlagLocation { get; set; }
     }
 }
